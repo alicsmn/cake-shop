@@ -1,6 +1,7 @@
 .dessert{
 	text-align: center;
 	background-color: white;
+	border: blue 2px solid;
 	color: blue;
 	display: inline-block;
 	margin: 20px;
