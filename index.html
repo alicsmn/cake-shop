@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   </head>
   <body>
- <nav class="navbar navbar-default">
-  <div class="container-fluid">
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -40,16 +40,57 @@
         </ul>
       </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
-  </nav>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    </nav>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <h1 class="titre"><strong>Cake shop</strong></h1>
-  <div class="intro">
-    <h2>Livraison de desserts a domicile</h2>
-    <p>Cake shop est une boutique en ligne pour commander de desserts. Suivant les périodes de l'année nous vous proposons des inédits (Noël,Pâques,..). <br>Nous pouvons aussi sur demande personnaliser certains desserts comme les gateaux avec un prénom.</p>
-    <p>Cake shop utilise des produits frais et vous livre en moins d'une heure<br>Vous pouvez aussi demander une heure de livraison si vous n'êtes pas disponible immédiatement<br>Moins 15% par gateau(x) supplementaire(s) !!</p>
+    <div class="intro">
+      <h2>Livraison de desserts a domicile</h2>
+      <p>Cake shop est une boutique en ligne pour commander de desserts. Suivant les périodes de l'année nous vous proposons des inédits (Noël,Pâques,..). <br>Nous pouvons aussi sur demande personnaliser certains desserts comme les gateaux avec un prénom.</p>
+      <p>Cake shop utilise des produits frais et vous livre en moins d'une heure<br>Vous pouvez aussi demander une heure de livraison si vous n'êtes pas disponible immédiatement<br>Moins 15% par gateau(x) supplementaire(s) !!</p>
+    </div>
+    <center><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <div id="wufoo-qwysgbq02cb9um">
+Fill out my <a href="https://cakeshoplivraison.wufoo.com/forms/qwysgbq02cb9um">online form</a>.
+</div>
+<div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">Online contact and registration forms from <a href="http://www.wufoo.com">Wufoo</a>.</div>
+<script type="text/javascript">var qwysgbq02cb9um;(function(d, t) {
+var s = d.createElement(t), options = {
+'userName':'cakeshoplivraison',
+'formHash':'qwysgbq02cb9um',
+'autoResize':true,
+'height':'935',
+'async':true,
+'host':'wufoo.com',
+'header':'show',
+'ssl':true};
+s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+s.onload = s.onreadystatechange = function() {
+var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+try { qwysgbq02cb9um = new WufooForm();qwysgbq02cb9um.initialize(options);qwysgbq02cb9um.display(); } catch (e) {}};
+var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+})(document, 'script');</script>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
   </div>
-    <center><a href="#" class="btn btn-lg btn-primary" class="btn btn-default">Commandez !</a></center>
-    <p>Cake shop est une compagnie fictive dans le cadre d'entrainement</p>
+</div></center>
+      <p>Cake shop est une compagnie fictive dans le cadre d'entrainement</p>
   </body>
 </html>
