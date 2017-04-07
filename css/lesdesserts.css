@@ -1,8 +1,11 @@
 .dessert{
 	text-align: center;
 	background-color: white;
-	border: blue 2px solid;
-	color: blue;
-	display: inline-block;
+	border: none;
+	color: fuchsia;
+	display: inline-table;
 	margin: 20px;
+	font-size: 20px;
+	width:275px; 
+	height:273px;
 }
