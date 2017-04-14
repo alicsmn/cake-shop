@@ -16,10 +16,14 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-.col-xs-10-offset-1{
+.col-xs-10{
 	text-align: center;
 	background-color: white;
 	color: brown;
 	border: 2px solid;
 	margin: 80px;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
 }
