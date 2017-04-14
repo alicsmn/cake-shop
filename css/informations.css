@@ -1,8 +1,11 @@
 .informations {
 	background-color: white;
-	border: 2px solid darkblue;
-	color: darkblue;
+	border: 2px solid brown;
+	color: brown;
 	text-align: center;
 	display: block;
 	margin-top: 150px;
+}
+.maps{
+	margin-top: 50px;
 }
