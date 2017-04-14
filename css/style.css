@@ -16,7 +16,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
-.col-xs-10-1{
+.col-xs-10-offset-1{
 	text-align: center;
 	background-color: white;
 	color: brown;
